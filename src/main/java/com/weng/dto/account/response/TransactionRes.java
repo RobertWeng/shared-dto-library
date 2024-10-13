@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class TransactionRes extends BaseRes {
-    private FundAccountRes fundAccount;
+    private BigDecimal newBalance;
     private TransactionType transactionType;
     private BigDecimal amount;
     private String currency;
